@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.header_titulo{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+.titulo{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 8vw;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.autor{
+    color: gray;
+}
+.destaque{
+    color: white;
+}
+section{
+    padding: 60px;
+    background-color: green;
+    text-align: left;
+}
+p{
+    display: flex;
+    margin: auto;
+    font-size: 3vw;
+    font-family: cursive, arial;
+}
+.creditos{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px; /* altura do footer */
+    background-color: #333; /* cor de fundo do footer */
+    font-size: 16px;
+    color: #fff; /* cor do texto do footer */
+    text-align: center; /* centralizar texto horizontalmente */
+    line-height: 40px;
+}
