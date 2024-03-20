@@ -24,17 +24,29 @@
 }
 .destaque{
     color: white;
+    font-weight: bold;
 }
 section{
     padding: 60px;
-    background-color: green;
     text-align: left;
+}
+.fundo_branco{
+    background-color: white;
+}
+.fundo_imagem{
+    background: black url(j.png) center center no-repeat fixed;
+    background-size: cover;
 }
 p{
     display: flex;
     margin: auto;
     font-size: 3vw;
     font-family: cursive, arial;
+}
+.paragrafo_imagem{
+    display: inline-block;
+    color: white;
+    background-color: #33333375;
 }
 .creditos{
     position: fixed;
