@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -16,18 +17,18 @@
             <section id="login_form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="">
+                <form action="" autocomplete="on">
                     <div id="username_div" class="input_div">
                         <i class="material-icons input_icons">person</i>
-                        <input type="email">
+                        <input autocomplete="email" type="email" name="password_input" required>
                     </div>
                     <div id="password_div" class="input_div">
                         <span class="material-icons md-18 input_icons">vpn_key</span>
-                        <input type="password" name="" id="">
+                        <input autocomplete="current-password" type="password" name="password_input" required>
                     </div>
                     <button class="form_button" id="submit_button" type="submit">Entrar</button>
-                    <button class="form_button" id="forgot_button">Esqueci a senha <span id="email_icon" class="material-icons">email</span></button> 
                 </form>
+                <button class="form_button" id="forgot_button">Esqueci a senha <span id="email_icon" class="material-icons">email</span></button> 
 
             </section>
         </div>

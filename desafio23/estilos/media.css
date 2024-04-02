@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+/* Typical Device Breakpoints W3C
+Pequenas Telas: até 600px
+Celular: 601px até 768px
+Tablet: 769px até 992px
+Desktop: 993px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    body{
+        background: linear-gradient(to bottom, blueviolet , rgba(43, 107, 226, 0.692));
+    }
+    #login_box{
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+    }
+    #login_image{
+        border-radius: 20px 0 0 20px;
+        max-height: 100%;
+        width: 60%;
+        height: 365px;
+    }
+    
+}
+
+@media screen and (min-width: 993px){
+    body{
+        background: linear-gradient(to right, blueviolet , rgba(43, 107, 226, 0.692));
+    }
+    #login_box{
+        display: flex;
+        width: 85%;
+         /* Espaço entre as duas partes */
+          
+    }
+    #login_image{
+        border-radius: 0px 20px 20px 0;
+        max-height: 100%;
+        width: 60%;
+        height: 365px;
+        order: 2;
+    }
+    #login_form{
+        order: 1;
+    }
+    
+}
