@@ -64,6 +64,10 @@ input{
     outline: none;
     padding-inline: 10px;
     font-size: 18px;
+    background-color: rgb(199, 248, 248);
+}
+input:focus{
+    background-color: white;
 }
 div > .input_icons{
     margin-inline: 5px;
